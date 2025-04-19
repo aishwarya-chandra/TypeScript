@@ -1,5 +1,5 @@
 // const user: (string | number)[] = [1, "hc"]
-let tUser: [string, number, boolean]
+let tUser: [string, number, boolean]          //tuples with element string, number and boolean
 
 tUser = ["hc", 131, true]
 
@@ -10,7 +10,8 @@ type User = [number, string]
 const newUser: User = [112, "example@google.com"]
 
 newUser[1] = "hc.com"
-newUser.push(true)
+newUser.push("true")
+
 
 
 
